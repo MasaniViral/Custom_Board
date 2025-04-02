@@ -1,28 +1,2422 @@
 {
   "packages": [
     {
-      "name": "Indiesemic",
-      "maintainer": "Indiesemic",
-      "websiteURL": "https://github.com/MasaniViral/Custom_Board",
+      "websiteURL": "https://indiesemic.com",
+      "tools": [
+        {
+          "name": "bossac",
+          "version": "1.8.0-48-gb176eee",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+              "checksum": "SHA-256:4523a6897f3dfd673fe821c5cfbac8d6a12782e7a36b312b9ee7d41deec2a10a",
+              "size": "91219"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i386-apple-darwin16.1.0.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-i386-apple-darwin16.1.0.tar.gz",
+              "checksum": "SHA-256:581ecc16021de36638ae14e9e064ffb4a1d532a11502f4252da8bcdf5ce1d649",
+              "size": "39150"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:1347eec67f5b90b785abdf6c8a8aa59129d0c016de7ff9b5ac1690378eacca3c",
+              "size": "37798"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i486-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-i486-linux-gnu.tar.gz",
+              "checksum": "SHA-256:4c7492f876b8269aa9d8bcaad3aeda31acf1a0292383093b6d9f5f1d23fdafc3",
+              "size": "37374"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+              "checksum": "SHA-256:2001e4a592f3aefd22f213b1ddd6f5d8d5e74bd04080cf1b97c24cbaa81b10ed",
+              "size": "34825"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino2-linuxaarch64.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino2-linuxaarch64.tar.gz",
+              "checksum": "SHA-256:c167fa0ea223966f4d21f5592da3888bcbfbae385be6c5c4e41f8abff35f5cb1",
+              "size": "442853"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.7.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+              "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+              "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+              "size": "117164633"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.4.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS-Atmel",
+          "version": "1.2.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS-Atmel",
+          "version": "1.2.2",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.2/CMSIS-Atmel-1.2.2.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.2.tar.bz2",
+              "checksum": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
+              "size": "2511228"
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "9-2019q4",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+              "size": "96613739"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "checksum": "MD5:0dfa059aae18fcf7d842e30c525076a4",
+              "size": "128670769"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "checksum": "MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+              "size": "153520070"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "checksum": "MD5:241b64f0578db2cf146034fc5bcee3d4",
+              "size": "116770520"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "checksum": "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+              "size": "116802378"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+              "size": "97427309"
+            }
+          ]
+        },
+        {
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+              "size": "96372129",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+              "size": "92811866",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+              "size": "92811866",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+              "size": "102981732",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
+            }
+          ],
+          "name": "gcc-arm-none-eabi",
+          "version": "5_2-2015q4"
+        },
+        {
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
+              "size": "362222",
+              "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
+              "size": "177428",
+              "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
+              "size": "190020",
+              "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:8352392ae0272173e1508d1218f51671",
+              "size": "851576",
+              "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+              "size": "2794097",
+              "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+              "size": "2794097",
+              "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+              "url": "https://github.com/adafruit/adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
+            }
+          ],
+          "name": "nrfjprog",
+          "version": "9.4.0"
+        },
+        {
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+              "size": "28295",
+              "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+              "url": "https://github.com/adafruit/adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+              "size": "28667",
+              "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+              "url": "https://github.com/adafruit/adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+              "size": "3742",
+              "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+              "url": "https://github.com/adafruit/adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+              "size": "525710",
+              "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+              "url": "https://github.com/adafruit/adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz"
+            }
+          ],
+          "name": "wiced_dfu",
+          "version": "1.0.0"
+        }
+      ],
+      "name": "indiesemic",
+      "email": "info@indiesemic.com",
       "help": {
-        "online": "https://github.com/MasaniViral/Custom_Board/issues"
+        "online": "https://forums.indiesemic.com"
       },
+      "maintainer": "indiesemic",
       "platforms": [
         {
-          "name": "Indiesemic nRF52",
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
           "architecture": "nrf52",
-          "version": "1.6.1",
-          "category": "Indiesemic Boards",
+          "name": "indiesemic nRF52",
+          "category": "indiesemic",
+          "version": "0.5.0",
+          "archiveFileName": "indiesemic-nrf52-1.0.0.tar.bz2",
+          "checksum": "SHA-256:13FA8608FE29074963CC7BE5A292CA0D89403F816833F9549D9C778CEE6A5E3E",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
+          "url": "https://github.com/MasaniViral/Custom_Board/releases/download/v1.6.1/indiesemic-nrf52-1.0.0.tar.bz2",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            }
+          ],
+          "size": "20056645"
+        },
+        
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "name": "indiesemic nRF52",
+          "category": "indiesemic",
+          "version": "0.5.1",
+          "archiveFileName": "adafruit-nrf52-0.5.1.tar.bz2",
+          "checksum": "SHA-256:b9d5d08c821fe6359e22c4060e2891009af0ba769edf74af03d6f7f2a43b1275",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.5.1.tar.bz2",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            }
+          ],
+          "size": "15142539"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "size": "23355441",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.6.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.6.0.tar.bz2",
+          "checksum": "SHA-256:b0bc660c849a9f2718aa55a62c5d02230d95e0b1fe3cb5a6ea2ec6db636065e2",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "name": "indiesemic nRF52",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "version": "0.6.0"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "name": "indiesemic nRF52",
+          "category": "indiesemic",
+          "version": "0.6.5",
+          "archiveFileName": "adafruit-nrf52-0.6.5.tar.bz2",
+          "checksum": "SHA-256:a685df1cf05c486bc7046dc2e6c028e08a4e7abcb17be2abf46d7300322c4dfd",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.6.5.tar.bz2",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "size": "26969382"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "size": "22856849",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.7.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.7.0.tar.bz2",
+          "checksum": "SHA-256:731ae052a045c7eacb83cdcafc140a4b8005a026be03adfe5f2277053961941f",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "name": "indiesemic nRF52",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "version": "0.7.0"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "size": "22962173",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.7.5.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.7.5.tar.bz2",
+          "checksum": "SHA-256:55423da246d5872b961f8adbce1e9a6a680370261cfd2f9814b7419bf9c7b9c7",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "name": "indiesemic nRF52",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "version": "0.7.5"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "size": "25160979",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.8.0.tar.bz2",
+          "checksum": "SHA-256:f38c5c2d6cfc3a64d1fea8107bcaebb1818b41141e97001647cb388ee6b50f53",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "name": "indiesemic nRF52",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "version": "0.8.0"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "size": "30180997",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.8.1.tar.bz2",
+          "checksum": "SHA-256:4418bb97a2e10a9d67a887d7e56c66d4529e25ddfa447dee4820c21c2073c467",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "name": "indiesemic nRF52",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "version": "0.8.1"
+        },
+        {
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "architecture": "nrf52",
+          "size": "30488307",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.2.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.8.2.tar.bz2",
+          "checksum": "SHA-256:fe8479ec08642ffc482e3f192b51ef3282b3168159f3353182be9cd79ffdcf9a",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "name": "indiesemic nRF52",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "version": "0.8.2"
+        },
+        {
+          "architecture": "nrf52",
+          "checksum": "SHA-256:f37f3435925cc40b23897e0009e291115bf4f42b3527414f5ddb214b21668afe",
+          "name": "indiesemic nRF52",
+          "category": "indiesemic",
+          "version": "0.8.3",
+          "archiveFileName": "adafruit-nrf52-0.8.3.tar.bz2",
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "url": "https://adafruit.github.io/arduino-board-index/boards/indiesemic-nrf52-0.8.3.tar.bz2",
+          "toolsDependencies": [
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "indiesemic",
+              "version": "5_2-2015q4"
+            },
+            {
+              "name": "nrfjprog",
+              "packager": "indiesemic",
+              "version": "9.4.0"
+            }
+          ],
+          "size": "27734401"
+        },
+        {
+          "category": "indiesemic",
+          "name": "indiesemic nRF52",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.4.tar.bz2",
+          "checksum": "SHA-256:3b802fdf7337fe06a44d90e274e571ba368503d88a452fdf2425cc0eeb350101",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "version": "0.8.4",
+          "architecture": "nrf52",
+          "archiveFileName": "adafruit-nrf52-0.8.4.tar.bz2",
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "version": "5_2-2015q4",
+              "name": "gcc-arm-none-eabi"
+            },
+            {
+              "packager": "indiesemic",
+              "version": "9.4.0",
+              "name": "nrfjprog"
+            }
+          ],
+          "size": "29558725"
+        },
+        {
+          "category": "indiesemic",
+          "name": "indiesemic nRF52",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.5.tar.bz2",
+          "checksum": "SHA-256:f86df6b3b6e00d87c57cbf4a5ac9ea9a165e7e79a1c69ca1efd4ecd31c3bcd4a",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "version": "0.8.5",
+          "architecture": "nrf52",
+          "archiveFileName": "adafruit-nrf52-0.8.5.tar.bz2",
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "version": "5_2-2015q4",
+              "name": "gcc-arm-none-eabi"
+            },
+            {
+              "packager": "indiesemic",
+              "version": "9.4.0",
+              "name": "nrfjprog"
+            }
+          ],
+          "size": "21139202"
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.8.6",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.6.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.8.6.tar.bz2",
+          "checksum": "SHA-256:0c5556143aaddd4fe40b0eb6d9938c2b11a9f091439020e0fe35d8e054f11f71",
+          "size": "20909866",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.9.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.9.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.9.0.tar.bz2",
+          "checksum": "SHA-256:5c0beb2c2fabac40e1ef63e14e2d8924695429a252a28dc79f2136995aba967e",
+          "size": "17231022",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+           
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.9.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.9.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.9.1.tar.bz2",
+          "checksum": "SHA-256:2fb619dd47bc962af80ad61b5492b7b2c704becb8ab6810be2c17ab4de49082a",
+          "size": "17457361",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+       
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.9.2",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.9.2.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.9.2.tar.bz2",
+          "checksum": "SHA-256:69a8d64573e58d2a1a3cc5115b09a54c4c3c3ecf837a60f7de77c0fa5885a8c2",
+          "size": "17274788",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.9.3",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.9.3.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.9.3.tar.bz2",
+          "checksum": "SHA-256:ba0087930b8b0563f0bf964c875975ceff88b06c09aa9b15fefc0ae2dd11a806",
+          "size": "17274967",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+       
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.10.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.10.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.10.1.tar.bz2",
+          "checksum": "SHA-256:79e8738df48652f4425c83b945a3a5f53d96146ee0f64299f79dd900d0807288",
+          "size": "17558841",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        
+        
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.11.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.11.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.11.0.tar.bz2",
+          "checksum": "SHA-256:a7ece234b2a42cb68384eaa290cec23ce2e60e500a79939355d30843e3cf7e6a",
+          "size": "16957683",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.11.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.11.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.11.1.tar.bz2",
+          "checksum": "SHA-256:44c8ceda0710c1009d3c125c011364422aadc69397e86138d9c7638af29a2cc2",
+          "size": "16964410",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.12.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.12.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.12.0.tar.bz2",
+          "checksum": "SHA-256:dc6b3e5c2638ef3e4ea7afa775de679ab9f9f896d8e3700627932b0e841026a9",
+          "size": "16966706",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.13.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.13.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.13.0.tar.bz2",
+          "checksum": "SHA-256:0152741eaeec7af0e480965d79e9ec62291681671bbc502b7d57cf789843471e",
+          "size": "17543332",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.14.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.14.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.14.0.tar.bz2",
+          "checksum": "SHA-256:3f7a70d4061d7c0ec8154788477c5b81abce19993b0709834615f8420494a193",
+          "size": "15836922",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.14.5",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.14.5.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.14.5.tar.bz2",
+          "checksum": "SHA-256:e702eaa9eff68ca944d898f72f51233a76a3e1fa23e8947669eaec782484af0d",
+          "size": "17869419",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.14.6",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.14.6.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.14.6.tar.bz2",
+          "checksum": "SHA-256:917b7cf9d0b3f7b90e8128bc4047d4affb86c1413839dd352fa19352fb797058",
+          "size": "17868176",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.15.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.15.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.15.0.tar.bz2",
+          "checksum": "SHA-256:4828306bc346d145449bff6a71d7581039becd8bcdae0f06d02185a58a759182",
+          "size": "17887560",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic Clue"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.15.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.15.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.15.1.tar.bz2",
+          "checksum": "SHA-256:7b89c77df223211d821600fe8998d628527d307717ae8ede849723b63ff35b9a",
+          "size": "17885633",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.16.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.16.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.16.0.tar.bz2",
+          "checksum": "SHA-256:60ee8d7094d008de751fec393455dfe8c39e17430a05e9f64fa51f1e01c1c09d",
+          "size": "17886832",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.17.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.17.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.17.0.tar.bz2",
+          "checksum": "SHA-256:7cf0856b9b827c570f1d0cce47c19c34ea727b78f4fb74c6c13cacd35974624d",
+          "size": "18263420",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.18.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.18.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.18.0.tar.bz2",
+          "checksum": "SHA-256:c4c29e041fc1d58be0cf21bb2d0e99e3649a40746ae20544a2f16a5d6dba6751",
+          "size": "18263802",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather Bluefruit Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.18.5",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.18.5.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.18.5.tar.bz2",
+          "checksum": "SHA-256:b53377374c03feb7a5295beaa450235d09c2818dadaff5d6020a762f1fbd70b1",
+          "size": "18555924",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.19.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.19.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.19.0.tar.bz2",
+          "checksum": "SHA-256:76e4f57cd2d3aed9e4d08660eda20ea817c769d7798fae6b73725a8ad82ca2b8",
+          "size": "18838497",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.20.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.20.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.20.0.tar.bz2",
+          "checksum": "SHA-256:51691a84af36ad8abf9cb8c96c57b296a07d8722fa2633fef6184814c545ba31",
+          "size": "19070130",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.20.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.20.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.20.1.tar.bz2",
+          "checksum": "SHA-256:2ae452b0177a7f343c0f440d94ee8e7a5bb2537d3b67b0e8d4490d1b8df9e823",
+          "size": "19070383",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.20.5",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.20.5.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.20.5.tar.bz2",
+          "checksum": "SHA-256:71f998d7b3a3594d26980896dc75881666a64b876c319c555083a58e35c4e341",
+          "size": "19169093",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.21.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.21.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.21.0.tar.bz2",
+          "checksum": "SHA-256:496db8e54c0ef0334df2b864a3338d7f640823431719dd02e0fa0cd32265ced3",
+          "size": "19180192",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.22.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.22.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.22.0.tar.bz2",
+          "checksum": "SHA-256:6c14690f3725a71ffaa7c9834e13775e9554bea8c76d6a9434d04d8a7b4db597",
+          "size": "19414924",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.22.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.22.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.22.1.tar.bz2",
+          "checksum": "SHA-256:b00ae1ab85785ea3cd871b17b4fc530103e173ff295e32cac17ff185b37b3ca9",
+          "size": "18948174",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.23.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.23.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.23.0.tar.bz2",
+          "checksum": "SHA-256:52eed7e33271414da848898d487f4ebd5b2b87c275946c57093db864157dbf49",
+          "size": "19546176",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "0.24.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.24.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.24.0.tar.bz2",
+          "checksum": "SHA-256:59e680b2e04d28be6211edc86d73e0e16e4e3fcff68cc405f098a521e6fb622b",
+          "size": "19549020",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.0.0",
+          "category": "indiesemic",
+          "url": "https://indiesemic.github.io/arduino-board-index/boards/indiesemic-nrf52-1.0.0.tar.bz2",
+          "archiveFileName": "indiesemic-nrf52-1.0.0.tar.bz2",
+          "checksum": "SHA-256:798c41111f6f70c008847c5bd89efb1ef6795e07f0c9544b54ebc0739ece26e1",
+          "size": "19410634",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.1.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.1.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.1.0.tar.bz2",
+          "checksum": "SHA-256:8d7adbfe36321ad390d6efbdbdc8aba804f188892372ea9b9ea0dcc0ade23056",
+          "size": "19670237",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.2.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.2.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.2.0.tar.bz2",
+          "checksum": "SHA-256:26376844651f342211e01afff364fc8d89f7d128252e26185ff7b01088b571dc",
+          "size": "19655415",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+       
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.3.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.3.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.3.0.tar.bz2",
+          "checksum": "SHA-256:a2af4a3690847868910e52dde9c1990082dc72b774bccb2e7914a3b72015ef5e",
+          "size": "19656222",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.4.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.4.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.4.0.tar.bz2",
+          "checksum": "SHA-256:345d6f28b5785f358a72432efdd1bd2f174a2818c230163cf3d99890a97576ef",
+          "size": "19739050",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.5.0",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.5.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.5.0.tar.bz2",
+          "checksum": "SHA-256:2ed5029ba729e6d10b32927aac63b5e82b42138c6886d24004585fedf9808c57",
+          "size": "19747405",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.6.0",
+          "category": "indiesemic",
           "url": "https://github.com/MasaniViral/Custom_Board/releases/download/v1.6.1/indiesemic-nrf52-1.0.0.tar.bz2",
           "archiveFileName": "indiesemic-nrf52-1.0.0.tar.bz2",
           "checksum": "SHA-256:13FA8608FE29074963CC7BE5A292CA0D89403F816833F9549D9C778CEE6A5E3E",
           "size": "20056645",
+          "help": {
+            "online": "https://forums.indiesemic.com"
+          },
           "boards": [
             {
-              "name": "Indiesemic nRF52 Custom Board"
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
             }
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
+        },
+        {
+          "name": "indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.6.1",
+          "category": "indiesemic",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.6.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.6.1.tar.bz2",
+          "checksum": "SHA-256:f56a669d52f39496adce93839ef822e48c903f8a2c380b0acbfbde29f3e8913b",
+          "size": "20076272",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "indiesemic Feather nRF52832"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Express"
+            },
+            {
+              "name": "indiesemic Feather nRF52840 Sense"
+            },
+            {
+              "name": "indiesemic Circuit Playground Bluefruit"
+            },
+            {
+              "name": "indiesemic Metro nRF52840 Express"
+            },
+            {
+              "name": "indiesemic ItsyBitsy nRF52840"
+            },
+            {
+              "name": "indiesemic CLUE"
+            },
+            {
+              "name": "indiesemic LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "indiesemic",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "indiesemic",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
         }
       ]
     }

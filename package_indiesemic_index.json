@@ -1,0 +1,30 @@
+{
+  "packages": [
+    {
+      "name": "Indiesemic",
+      "maintainer": "Indiesemic",
+      "websiteURL": "https://github.com/MasaniViral/Custom_Board",
+      "help": {
+        "online": "https://github.com/MasaniViral/Custom_Board/issues"
+      },
+      "platforms": [
+        {
+          "name": "Indiesemic nRF52",
+          "architecture": "nrf52",
+          "version": "1.6.1",
+          "category": "Indiesemic Boards",
+          "url": "https://github.com/MasaniViral/Custom_Board/releases/download/v1.6.1/indiesemic-nrf52-1.0.0.tar.bz2",
+          "archiveFileName": "indiesemic-nrf52-1.0.0.tar.bz2",
+          "checksum": "SHA-256:13FA8608FE29074963CC7BE5A292CA0D89403F816833F9549D9C778CEE6A5E3E",
+          "size": "20056645",
+          "boards": [
+            {
+              "name": "Indiesemic nRF52 Custom Board"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ]
+    }
+  ]
+}
